@@ -5,7 +5,7 @@ export default async function putData(id) {
     const price = document.querySelector('#price').value;
     const amount = document.querySelector('#amount').value;
 
-    await fetch(`http://backend-william-4qgntxmbf-thevalter.vercel.app/products/products/${id}`, {
+    await fetch(`https://backend-william-4qgntxmbf-thevalter.vercel.app/products/${id}`, {
         method: 'PUT',
         headers: {
             Accept: 'application/json',

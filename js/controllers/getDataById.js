@@ -1,6 +1,6 @@
 export default async function getDataById(id) {
 
-    const resp = await fetch(`http://backend-william-4qgntxmbf-thevalter.vercel.app/products/products/${id}`);
+    const resp = await fetch(`https://backend-william-4qgntxmbf-thevalter.vercel.app/products/${id}`);
     const data = await resp.json();
 
     document.getElementById('product').value = data[0].product;

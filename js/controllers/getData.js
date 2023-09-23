@@ -1,6 +1,6 @@
 export default async function getData() {
     try {
-        const resp = await fetch('http://backend-william-4qgntxmbf-thevalter.vercel.app/products');
+        const resp = await fetch('https://backend-william-4qgntxmbf-thevalter.vercel.app/products');
         const data = await resp.json();
 
         data.map(el => {

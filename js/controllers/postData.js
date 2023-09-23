@@ -4,7 +4,7 @@ export default async function postData() {
         const brand = document.querySelector('#brand').value;
         const price = document.querySelector('#price').value;
         const amount = document.querySelector('#amount').value;
-        await fetch('http://backend-william-4qgntxmbf-thevalter.vercel.app/products/products', {
+        await fetch('https://backend-william-4qgntxmbf-thevalter.vercel.app/products', {
             method: 'POST',
             headers: {
                 Accept: 'application/json',
